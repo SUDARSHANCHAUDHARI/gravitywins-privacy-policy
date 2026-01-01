@@ -1,6 +1,6 @@
 # GravityWins Privacy Policy
 
-**Last updated: November 9, 2025**
+**Last updated: January 1, 2026**
 
 This Privacy Policy applies to the mobile application **GravityWins**, published by **Sudarshan Tech Labs**.
 
