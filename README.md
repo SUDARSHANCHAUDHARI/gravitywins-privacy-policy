@@ -1,86 +1,88 @@
 # GravityWins Privacy Policy
 
-_Last updated: November 9, 2025_
+**Last updated: November 9, 2025**
 
-GravityWins (“we,” “our,” or “us”) is a personal drop-tracking app. This Privacy Policy explains what information the app collects, how it is used, and the choices you have. By installing or using GravityWins you agree to the practices described below.
+This Privacy Policy applies to the mobile application **GravityWins**, published by **Sudarshan Tech Labs**.
+
+GravityWins (“we,” “our,” or “us”) is a personal drop-tracking app. This Privacy Policy explains what information the app collects, how it is used, and the choices you have. By installing or using GravityWins, you agree to the practices described below.
 
 ## Information We Collect
 
-GravityWins is designed to work primarily offline. The app stores the following information on your device:
+GravityWins is designed to work primarily offline. The app stores the following information locally on your device:
 
 - **Drop activity and statistics:** Timestamps of recorded drops, daily and lifetime totals, streaks, and last-drop time.
 - **Drop context:** Optional notes and tags you add to individual drops.
-- **User preferences:** Notification settings, quiet-hour schedule, focus-mode timers, home layout choice, telemetry toggle, daily goals, milestone unlocks, webhook configuration, and export/reminder preferences.
-- **Weekly digest summaries:** Aggregated counts (e.g., drops per week, busiest hour or weekday) generated for the in-app digest.
-- **Telemetry events (optional):** Basic app-usage events (for example “drop detected,” “history exported,” or “contact request started”) are buffered in memory only when telemetry is enabled. They are not transmitted anywhere in the current build.
+- **User preferences:** Notification settings, quiet-hour schedule, focus-mode timers, home layout choice, telemetry toggle, daily goals, milestone unlocks, webhook configuration, and export or reminder preferences.
+- **Weekly digest summaries:** Aggregated counts (for example, drops per week or busiest hour or weekday) generated for the in-app digest.
+- **Telemetry events (optional):** Basic app-usage events such as **drop detected**, **history exported**, or **contact request started**. When enabled, these events are buffered in memory only and are not transmitted in the current build.
 
-The app **does not** collect precise or approximate location, contact lists, photos, audio, or persistent device identifiers. Accelerometer readings are processed on-device to detect drops; raw sensor data is not stored.
+The app **does not** collect precise or approximate location data, contact lists, photos, audio, or persistent device identifiers. Accelerometer readings are processed on-device solely to detect drops. Raw sensor data is not stored.
 
-### Information You Choose to Share
+## Information You Choose to Share
 
-- **Contact form:** If you fill out the “Need help or want to contribute?” form, your name, reply email, subject, and message are placed into an email draft addressed to the developer (`sunny.sudarshan@gmail.com`). The app does not keep a copy; sending the message is handled entirely by your chosen email provider.
-- **Data exports:** When you export history as CSV or JSON, the files are created in the app’s private cache and shared through Android’s system share sheet. The data leaves your device only if you choose a destination (e.g., email, cloud storage).
-- **Webhooks:** If you enable webhooks, drop summaries (counts, humor line, timestamps, and—if you opt in—device model/manufacturer/Android version) are sent to the HTTPS endpoint you configure. We do not run or control that endpoint.
+- **Contact form:** If you use the **Need help or want to contribute?** option, your name, reply email, subject, and message are placed into an email draft addressed to the developer (**sudarshantechlabs@gmail.com**). The app does not store a copy. Sending the message is handled entirely by your chosen email provider.
+- **Data exports:** When you export history as CSV or JSON, files are created in the app’s private cache and shared using Android’s system share sheet. Data leaves your device only if you choose a destination such as email or cloud storage.
+- **Webhooks:** If you enable webhooks, drop summaries (counts, humor line, timestamps, and if you opt in device model, manufacturer, and Android version) are sent to the HTTPS endpoint you configure. **Sudarshan Tech Labs** does not operate or control that endpoint.
 
 ## How We Use Information
 
-All collected information is used strictly to provide app functionality:
+All information is used strictly to provide app functionality:
 
-- Maintain drop counts, streaks, and history.
-- Drive focus-mode, notifications, widgets, and reminders.
-- Populate weekly digests and diagnostic timelines.
-- Send optional webhooks and exports that you initiate.
-- Improve the experience based on optional telemetry events (currently only saved in memory).
+- Maintain drop counts, streaks, and history
+- Drive focus mode, notifications, widgets, and reminders
+- Generate weekly digests and diagnostic timelines
+- Send optional exports and webhooks initiated by you
+- Improve the experience using optional telemetry (currently stored only in memory)
 
-We do not run ads and do not sell, rent, or monetize your data.
+GravityWins does **not** display ads and does **not** sell, rent, or monetize user data.
 
 ## Storage and Retention
 
-- Drop history, preferences, and digests are stored locally using Android DataStore and Room database.
-- Exported CSV/JSON files live in a cache directory until you share them or the app clears old files (the app retains up to five recent exports).
-- Telemetry events are held in memory only and cleared when the app restarts.
-- Webhook dispatch logs are in-memory and capped to the five most recent attempts.
+- Drop history, preferences, and digests are stored locally using Android DataStore and Room.
+- Exported CSV or JSON files are stored temporarily in a cache directory. The app keeps up to **five** recent exports.
+- Telemetry events are stored in memory only and cleared when the app restarts.
+- Webhook dispatch logs are held in memory and limited to the **five** most recent attempts.
 
-If you uninstall GravityWins, all locally stored data is removed from your device.
+Uninstalling GravityWins removes all locally stored data from your device.
 
 ## Sharing and Transfers
 
-We do not send data to our own servers or third-party analytics services. Data leaves the device only when you:
+**Sudarshan Tech Labs** does not send data to its own servers or to third-party analytics services.
 
-- Send an email via the contact form.
-- Share a CSV/JSON export through another app or service.
-- Configure a webhook endpoint.
+Data leaves your device only when you:
 
-Because those actions are user-directed, any further processing is governed by the recipient service’s policies.
+- Send an email using the contact option
+- Share an export file through another app or service
+- Enable and configure a webhook
+
+Any further handling of that data is governed by the recipient service’s privacy policy.
 
 ## Your Choices and Controls
 
-- **Telemetry:** Toggle analytics events on or off in Settings → Diagnostics. When off, no events are recorded.
-- **Drop history:** Edit notes/tags, clear individual entries, or clear all history in Settings.
-- **Exports:** Delete exported files through the target app/service or clear the app’s cache.
-- **Webhooks:** Enable/disable the feature at any time, update the destination URL, and choose whether device info is included.
-- **Quiet hours and notifications:** Customize in Settings or disable entirely.
-- **Data removal:** Uninstalling the app deletes all information stored by GravityWins.
+- **Telemetry:** Enable or disable in Settings → Diagnostics.
+- **Drop history:** Edit notes and tags, delete entries, or clear all history.
+- **Exports:** Delete shared files through the destination app or by clearing the app cache.
+- **Webhooks:** Enable or disable at any time and control whether device information is included.
+- **Notifications and quiet hours:** Fully configurable or can be disabled entirely.
+- **Data removal:** Uninstalling the app deletes all stored data.
 
 ## Security
 
-Data remains on your device unless you choose to share it. For webhooks the app uses HTTPS when supported by the destination. Because exports and emails are user-directed, ensure you trust the recipients you select. Data stored locally (drop history, preferences) is not encrypted on your device. Standard Android security protections apply.
+Data remains on your device unless you choose to share it. Webhooks use HTTPS when supported by the destination. Because exports and emails are user-directed, ensure you trust the recipients you select. Local data is not encrypted at rest beyond standard Android platform protections.
 
 ## Children’s Privacy
 
-GravityWins is intended for a general audience and is not directed at children under 13. If you are a parent or guardian and believe your child has provided personal information, contact us to request deletion.
+GravityWins is intended for a general audience and is not directed at children under the age of **13**. If you believe a child has provided personal information, please contact us so appropriate action can be taken.
 
 ## Changes to This Policy
 
-We may update this Privacy Policy to reflect new features or legal requirements. Significant changes will be noted in the app release notes or within the documentation. The “Last updated” date at the top will change when revisions occur.
+This Privacy Policy may be updated to reflect new features or legal requirements. Any changes will be posted on this page, and the **Last updated** date will be revised accordingly.
 
 ## Contact Us
 
 If you have questions about this Privacy Policy or wish to request data deletion, contact:
 
-- **Email:** sunny.sudarshan@gmail.com  
-- **App:** Open GravityWins → About → “Need help or want to contribute?”
+- **Email:** sudarshantechlabs@gmail.com
+- **In app:** GravityWins → About → **Need help or want to contribute?**
 
-We will respond as quickly as possible.
-
-
+We aim to respond as quickly as possible.
