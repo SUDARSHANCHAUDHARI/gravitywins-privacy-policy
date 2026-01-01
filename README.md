@@ -4,6 +4,10 @@
 
 This Privacy Policy applies to the mobile application **GravityWins**, published by **Sudarshan Tech Labs**.
 
+**Official website:** https://sudarshantechlabs.com  
+**Company email:** sudarshantechlabs@gmail.com  
+**Developer contact:** sunny.sudarshan@gmail.com
+
 GravityWins (“we,” “our,” or “us”) is a personal drop-tracking app. This Privacy Policy explains what information the app collects, how it is used, and the choices you have. By installing or using GravityWins, you agree to the practices described below.
 
 ## Information We Collect
@@ -20,7 +24,7 @@ The app **does not** collect precise or approximate location data, contact lists
 
 ## Information You Choose to Share
 
-- **Contact form:** If you use the **Need help or want to contribute?** option, your name, reply email, subject, and message are placed into an email draft addressed to the developer (**sudarshantechlabs@gmail.com**). The app does not store a copy. Sending the message is handled entirely by your chosen email provider.
+- **Contact form:** If you use the **Need help or want to contribute?** option, your name, reply email, subject, and message are placed into an email draft addressed to **sudarshantechlabs@gmail.com** or **sunny.sudarshan@gmail.com**. The app does not store a copy. Sending the message is handled entirely by your chosen email provider.
 - **Data exports:** When you export history as CSV or JSON, files are created in the app’s private cache and shared using Android’s system share sheet. Data leaves your device only if you choose a destination such as email or cloud storage.
 - **Webhooks:** If you enable webhooks, drop summaries (counts, humor line, timestamps, and if you opt in device model, manufacturer, and Android version) are sent to the HTTPS endpoint you configure. **Sudarshan Tech Labs** does not operate or control that endpoint.
 
@@ -82,7 +86,9 @@ This Privacy Policy may be updated to reflect new features or legal requirements
 
 If you have questions about this Privacy Policy or wish to request data deletion, contact:
 
-- **Email:** sudarshantechlabs@gmail.com
+- **Website:** https://sudarshantechlabs.com
+- **Company email:** sudarshantechlabs@gmail.com
+- **Developer email:** sunny.sudarshan@gmail.com
 - **In app:** GravityWins → About → **Need help or want to contribute?**
 
 We aim to respond as quickly as possible.
