@@ -1,129 +1,122 @@
-# Privacy Policy — GravityWins
+# GravityWins — Privacy Policy
 
 **Effective Date:** 2026-03-21
 **Last Updated:** 2026-03-21
+**Version:** 1.0.0
 
-**Developer:** SudarshanTechLabs
-**Location:** Bangkok, Bangkok, Thailand
-**Contact:** sudarshantechlabs@gmail.com
-
----
-
-## 1. Introduction
-
-Thank you for using GravityWins ("the App"), developed by SudarshanTechLabs. This Privacy Policy explains what information the App collects, how it is used, and your rights as a user.
-
-We are committed to protecting your privacy. GravityWins is designed as an on-device tool — it does not require an account, does not connect to the internet for data collection, and does not share your data with third parties.
+Published by **Sudarshan Tech Labs** | https://sudarshantechlabs.com | sudarshantechlabs@gmail.com
 
 ---
 
-## 2. Information We Collect
-
-### 2.1 Data Collected On-Device
-GravityWins collects the following data **locally on your device only**:
-
-| Data | Purpose |
-|------|---------|
-| Accelerometer sensor readings | Detect drop and impact events |
-| Timestamps of detected drops | Display history and statistics |
-| App settings and preferences | Store your configuration |
-
-**This data never leaves your device.** It is stored using Android's local storage (Room database and DataStore) and is not transmitted to any server.
-
-### 2.2 Data We Do NOT Collect
-- Personal information (name, email, phone number)
-- Location data
-- Device identifiers (IMEI, advertising ID)
-- Usage analytics or crash reports
-- Any data transmitted over the internet
+GravityWins is a health and fitness tracking app for Android. All data is stored exclusively on your device. Sudarshan Tech Labs does not operate a backend server and does not collect any personal data.
 
 ---
 
-## 3. How We Use Your Data
+## Data Collection
 
-All data collected by GravityWins is used solely to provide the app's core functionality:
+### Data Stored Locally on Your Device
 
-- Detecting and recording phone drop events
-- Displaying drop history and statistics
-- Sending local notifications when a drop is detected
-- Restoring monitoring state after device reboot
+| Data | Purpose | Storage |
+|---|---|---|
+| Health and fitness activity data | Core tracking functionality | Room database on your device |
+| App settings and preferences | Personalisation | DataStore on your device |
 
-We do not use your data for advertising, profiling, or any purpose beyond the features described above.
+No data is transmitted to Sudarshan Tech Labs or any third-party server.
 
 ---
 
-## 4. Permissions Explained
+## How We Use Your Data
 
-GravityWins requests the following Android permissions:
+All data is used solely to provide the in-app tracking experience. No data is shared, analysed externally, or used for advertising.
+
+---
+
+## Data Storage and Security
+
+- **All data is stored locally** in a Room database within the App's private directory
+- **No network transmission:** The App does not send data to any external server
+- **Android sandbox:** Data is protected by Android's application isolation
+
+## Data Retention
+
+| Data | Retention |
+|---|---|
+| All local app data | Until you delete it or uninstall the App |
+
+---
+
+## Data Sharing
+
+We do not collect, share, or sell any user data. GravityWins operates entirely offline.
+
+---
+
+## Background Services
+
+GravityWins uses a foreground service (`FOREGROUND_SERVICE_HEALTH`) to track health activity in the background. A persistent notification is displayed while the service is running. You can stop the service at any time by dismissing the notification.
+
+---
+
+## Permissions Explained
 
 | Permission | Why It Is Needed |
-|-----------|-----------------|
-| `ACTIVITY_RECOGNITION` | Required by Android to access motion sensors for drop detection |
-| `FOREGROUND_SERVICE` | Keeps the drop detection service running reliably in the background |
-| `FOREGROUND_SERVICE_HEALTH` | Classifies the background service under Android's health category |
-| `POST_NOTIFICATIONS` | Sends you an alert when a drop is detected |
-| `RECEIVE_BOOT_COMPLETED` | Restarts drop monitoring automatically after your phone reboots |
-| `VIBRATE` | Provides haptic feedback when a drop is detected |
-
-No permission is used beyond its stated purpose.
+|---|---|
+| `FOREGROUND_SERVICE` | Run health tracking in the background |
+| `FOREGROUND_SERVICE_HEALTH` | Required service type for health data tracking |
+| `POST_NOTIFICATIONS` | Display the foreground service notification and activity alerts |
+| `RECEIVE_BOOT_COMPLETED` | Restart background tracking after device reboot |
+| `VIBRATE` | Haptic feedback for activity alerts |
 
 ---
 
-## 5. Third-Party Services
+## Your Rights and Controls
 
-GravityWins does **not** integrate any third-party SDKs for analytics, advertising, or crash reporting. There are no third-party libraries that collect or transmit your data.
-
----
-
-## 6. Data Retention and Deletion
-
-All data (drop history, settings) is stored locally on your device. You can delete all app data at any time by:
-
-- Going to **Settings → Apps → GravityWins → Clear Data** on your Android device, or
-- Uninstalling the app
-
-Uninstalling GravityWins permanently removes all locally stored data.
+- **Delete all data:** Uninstall the App or go to Android Settings > Apps > GravityWins > Storage > Clear Data
+- **Stop background service:** Dismiss the persistent notification
 
 ---
 
-## 7. Children's Privacy
+## Children's Privacy
 
-GravityWins does not knowingly collect any personal information from children under the age of 13 (or the applicable age of digital consent in your jurisdiction). The app does not collect personal data from any user, regardless of age.
-
-If you believe a child has provided personal information through the app, please contact us at sudarshantechlabs@gmail.com and we will address the concern promptly.
+GravityWins is not directed at children under 13. We do not collect any personal information.
 
 ---
 
-## 8. Data Security
+## Changes to This Policy
 
-Since all data remains on your device, your data is protected by your device's built-in security mechanisms (screen lock, encryption, etc.). We do not transmit data and therefore there is no server-side security risk associated with GravityWins.
+We may update this Privacy Policy from time to time. We will notify you of significant changes via:
 
----
+- In-app notification
+- Updated policy date on this page
 
-## 9. Changes to This Privacy Policy
-
-We may update this Privacy Policy from time to time. Any changes will be reflected by updating the "Last Updated" date at the top of this document. We encourage you to review this policy periodically.
-
-For significant changes, we will update the app's Play Store listing description.
+Continued use of GravityWins after changes become effective constitutes your acceptance of the updated policy.
 
 ---
 
-## 10. Your Rights
+## Contact Us
 
-Depending on your jurisdiction, you may have rights regarding your personal data (e.g., GDPR, PDPA Thailand). Since GravityWins stores all data locally on your device and does not collect personal data, these rights are exercised directly through your Android device settings.
+For privacy questions, data access requests, or account deletion:
 
-To delete all app data: **Settings → Apps → GravityWins → Clear Data**
-
----
-
-## 11. Contact Us
-
-If you have any questions about this Privacy Policy or the GravityWins app, please contact us:
-
-**SudarshanTechLabs**
-Bangkok, Bangkok, Thailand
-Email: sudarshantechlabs@gmail.com
+- **Email:** sudarshantechlabs@gmail.com
+- **Developer:** sunny.sudarshan@gmail.com
+- **Website:** https://sudarshantechlabs.com
+- **Response Time:** Within 48 hours
 
 ---
 
-*This privacy policy applies to the GravityWins Android application published on Google Play by SudarshanTechLabs.*
+## Play Store Data Safety Summary
+
+| Data type | Collected | Shared | Purpose |
+|---|---|---|---|
+| Health and fitness data | Local only | No | App functionality |
+
+---
+
+---
+
+**This privacy policy complies with:**
+- Google Play Store requirements
+- GDPR (General Data Protection Regulation)
+- CCPA (California Consumer Privacy Act)
+
+**Last reviewed:** 2026-03-21
