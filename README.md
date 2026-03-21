@@ -1,94 +1,129 @@
-# GravityWins Privacy Policy
+# Privacy Policy — GravityWins
 
-**Last updated: January 1, 2026**
+**Effective Date:** 2026-03-21
+**Last Updated:** 2026-03-21
 
-This Privacy Policy applies to the mobile application **GravityWins**, published by **Sudarshan Tech Labs**.
+**Developer:** SudarshanTechLabs
+**Location:** Bangkok, Bangkok, Thailand
+**Contact:** sudarshantechlabs@gmail.com
 
-**Official website:** https://sudarshantechlabs.com  
-**Company email:** sudarshantechlabs@gmail.com  
-**Developer contact:** sunny.sudarshan@gmail.com
+---
 
-GravityWins (“we,” “our,” or “us”) is a personal drop-tracking app. This Privacy Policy explains what information the app collects, how it is used, and the choices you have. By installing or using GravityWins, you agree to the practices described below.
+## 1. Introduction
 
-## Information We Collect
+Thank you for using GravityWins ("the App"), developed by SudarshanTechLabs. This Privacy Policy explains what information the App collects, how it is used, and your rights as a user.
 
-GravityWins is designed to work primarily offline. The app stores the following information locally on your device:
+We are committed to protecting your privacy. GravityWins is designed as an on-device tool — it does not require an account, does not connect to the internet for data collection, and does not share your data with third parties.
 
-- **Drop activity and statistics:** Timestamps of recorded drops, daily and lifetime totals, streaks, and last-drop time.
-- **Drop context:** Optional notes and tags you add to individual drops.
-- **User preferences:** Notification settings, quiet-hour schedule, focus-mode timers, home layout choice, telemetry toggle, daily goals, milestone unlocks, webhook configuration, and export or reminder preferences.
-- **Weekly digest summaries:** Aggregated counts (for example, drops per week or busiest hour or weekday) generated for the in-app digest.
-- **Telemetry events (optional):** Basic app-usage events such as **drop detected**, **history exported**, or **contact request started**. When enabled, these events are buffered in memory only and are not transmitted in the current build.
+---
 
-The app **does not** collect precise or approximate location data, contact lists, photos, audio, or persistent device identifiers. Accelerometer readings are processed on-device solely to detect drops. Raw sensor data is not stored.
+## 2. Information We Collect
 
-## Information You Choose to Share
+### 2.1 Data Collected On-Device
+GravityWins collects the following data **locally on your device only**:
 
-- **Contact form:** If you use the **Need help or want to contribute?** option, your name, reply email, subject, and message are placed into an email draft addressed to **sudarshantechlabs@gmail.com** or **sunny.sudarshan@gmail.com**. The app does not store a copy. Sending the message is handled entirely by your chosen email provider.
-- **Data exports:** When you export history as CSV or JSON, files are created in the app’s private cache and shared using Android’s system share sheet. Data leaves your device only if you choose a destination such as email or cloud storage.
-- **Webhooks:** If you enable webhooks, drop summaries (counts, humor line, timestamps, and if you opt in device model, manufacturer, and Android version) are sent to the HTTPS endpoint you configure. **Sudarshan Tech Labs** does not operate or control that endpoint.
+| Data | Purpose |
+|------|---------|
+| Accelerometer sensor readings | Detect drop and impact events |
+| Timestamps of detected drops | Display history and statistics |
+| App settings and preferences | Store your configuration |
 
-## How We Use Information
+**This data never leaves your device.** It is stored using Android's local storage (Room database and DataStore) and is not transmitted to any server.
 
-All information is used strictly to provide app functionality:
+### 2.2 Data We Do NOT Collect
+- Personal information (name, email, phone number)
+- Location data
+- Device identifiers (IMEI, advertising ID)
+- Usage analytics or crash reports
+- Any data transmitted over the internet
 
-- Maintain drop counts, streaks, and history
-- Drive focus mode, notifications, widgets, and reminders
-- Generate weekly digests and diagnostic timelines
-- Send optional exports and webhooks initiated by you
-- Improve the experience using optional telemetry (currently stored only in memory)
+---
 
-GravityWins does **not** display ads and does **not** sell, rent, or monetize user data.
+## 3. How We Use Your Data
 
-## Storage and Retention
+All data collected by GravityWins is used solely to provide the app's core functionality:
 
-- Drop history, preferences, and digests are stored locally using Android DataStore and Room.
-- Exported CSV or JSON files are stored temporarily in a cache directory. The app keeps up to **five** recent exports.
-- Telemetry events are stored in memory only and cleared when the app restarts.
-- Webhook dispatch logs are held in memory and limited to the **five** most recent attempts.
+- Detecting and recording phone drop events
+- Displaying drop history and statistics
+- Sending local notifications when a drop is detected
+- Restoring monitoring state after device reboot
 
-Uninstalling GravityWins removes all locally stored data from your device.
+We do not use your data for advertising, profiling, or any purpose beyond the features described above.
 
-## Sharing and Transfers
+---
 
-**Sudarshan Tech Labs** does not send data to its own servers or to third-party analytics services.
+## 4. Permissions Explained
 
-Data leaves your device only when you:
+GravityWins requests the following Android permissions:
 
-- Send an email using the contact option
-- Share an export file through another app or service
-- Enable and configure a webhook
+| Permission | Why It Is Needed |
+|-----------|-----------------|
+| `ACTIVITY_RECOGNITION` | Required by Android to access motion sensors for drop detection |
+| `FOREGROUND_SERVICE` | Keeps the drop detection service running reliably in the background |
+| `FOREGROUND_SERVICE_HEALTH` | Classifies the background service under Android's health category |
+| `POST_NOTIFICATIONS` | Sends you an alert when a drop is detected |
+| `RECEIVE_BOOT_COMPLETED` | Restarts drop monitoring automatically after your phone reboots |
+| `VIBRATE` | Provides haptic feedback when a drop is detected |
 
-Any further handling of that data is governed by the recipient service’s privacy policy.
+No permission is used beyond its stated purpose.
 
-## Your Choices and Controls
+---
 
-- **Telemetry:** Enable or disable in Settings → Diagnostics.
-- **Drop history:** Edit notes and tags, delete entries, or clear all history.
-- **Exports:** Delete shared files through the destination app or by clearing the app cache.
-- **Webhooks:** Enable or disable at any time and control whether device information is included.
-- **Notifications and quiet hours:** Fully configurable or can be disabled entirely.
-- **Data removal:** Uninstalling the app deletes all stored data.
+## 5. Third-Party Services
 
-## Security
+GravityWins does **not** integrate any third-party SDKs for analytics, advertising, or crash reporting. There are no third-party libraries that collect or transmit your data.
 
-Data remains on your device unless you choose to share it. Webhooks use HTTPS when supported by the destination. Because exports and emails are user-directed, ensure you trust the recipients you select. Local data is not encrypted at rest beyond standard Android platform protections.
+---
 
-## Children’s Privacy
+## 6. Data Retention and Deletion
 
-GravityWins is intended for a general audience and is not directed at children under the age of **13**. If you believe a child has provided personal information, please contact us so appropriate action can be taken.
+All data (drop history, settings) is stored locally on your device. You can delete all app data at any time by:
 
-## Changes to This Policy
+- Going to **Settings → Apps → GravityWins → Clear Data** on your Android device, or
+- Uninstalling the app
 
-This Privacy Policy may be updated to reflect new features or legal requirements. Any changes will be posted on this page, and the **Last updated** date will be revised accordingly.
+Uninstalling GravityWins permanently removes all locally stored data.
 
-## Contact Us
+---
 
-If you have questions about this Privacy Policy or wish to request data deletion, contact:
+## 7. Children's Privacy
 
-- **Website:** https://sudarshantechlabs.com
-- **Company email:** sudarshantechlabs@gmail.com
-- **Developer email:** sunny.sudarshan@gmail.com
-- **In app:** GravityWins → About → **Need help or want to contribute?**
+GravityWins does not knowingly collect any personal information from children under the age of 13 (or the applicable age of digital consent in your jurisdiction). The app does not collect personal data from any user, regardless of age.
 
-We aim to respond as quickly as possible.
+If you believe a child has provided personal information through the app, please contact us at sudarshantechlabs@gmail.com and we will address the concern promptly.
+
+---
+
+## 8. Data Security
+
+Since all data remains on your device, your data is protected by your device's built-in security mechanisms (screen lock, encryption, etc.). We do not transmit data and therefore there is no server-side security risk associated with GravityWins.
+
+---
+
+## 9. Changes to This Privacy Policy
+
+We may update this Privacy Policy from time to time. Any changes will be reflected by updating the "Last Updated" date at the top of this document. We encourage you to review this policy periodically.
+
+For significant changes, we will update the app's Play Store listing description.
+
+---
+
+## 10. Your Rights
+
+Depending on your jurisdiction, you may have rights regarding your personal data (e.g., GDPR, PDPA Thailand). Since GravityWins stores all data locally on your device and does not collect personal data, these rights are exercised directly through your Android device settings.
+
+To delete all app data: **Settings → Apps → GravityWins → Clear Data**
+
+---
+
+## 11. Contact Us
+
+If you have any questions about this Privacy Policy or the GravityWins app, please contact us:
+
+**SudarshanTechLabs**
+Bangkok, Bangkok, Thailand
+Email: sudarshantechlabs@gmail.com
+
+---
+
+*This privacy policy applies to the GravityWins Android application published on Google Play by SudarshanTechLabs.*
