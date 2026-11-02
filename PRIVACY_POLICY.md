@@ -1,8 +1,8 @@
 # GravityWins Privacy Policy
 
 **Effective Date:** May 17, 2026
-_Last updated: May 17, 2026_
-**Version:** 1.1.0
+_Last updated: November 2, 2026_
+**Version:** 1.2.0
 
 GravityWins ("we," "our," or "us") is an Android app. GravityWins is a health and fitness tracking app for Android that stores activity and workout data locally on your device. This Privacy Policy explains what information the app collects, how it is used, and the choices you have. By installing or using GravityWins you agree to the practices described below.
 
@@ -53,6 +53,7 @@ GravityWins ("we," "our," or "us") is an Android app. GravityWins is a health an
 - You control feature use through the app settings, permissions, account controls, or platform settings.
 
 ### Third Parties
+- **Firebase Crashlytics (Google)**: If the app crashes, a crash report is sent to Firebase Crashlytics. It can include the error details, device model, Android version, app version, and an installation identifier. We use it only to find and fix bugs. Google's handling of this data is covered by the [Firebase Privacy Policy](https://firebase.google.com/support/privacy).
 - No health data is shared with third parties by Sudarshan Tech Labs.
 
 We do **not** share your data with:
