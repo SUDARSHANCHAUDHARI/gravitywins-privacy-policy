@@ -2,7 +2,7 @@
 
 **Effective Date:** 2026-03-21
 **Last Updated:** 2026-11-08
-**Version:** 1.2.1
+**Version:** 1.2.0
 
 Published by **Sudarshan Tech Labs** | https://sudarshantechlabs.com | sudarshantechlabs@gmail.com
 
@@ -133,6 +133,24 @@ For privacy questions, data access requests, or account deletion:
 | Device or other IDs | Yes | Yes (Google) | Diagnostics |
 
 ---
+
+---
+
+## Recent Updates (Version 1.2.0 - November 8, 2026)
+
+- **Removed the boilerplate** claiming protection by "Android, the browser, Firebase, Google, GitHub, or other services". Firebase and Google are true for GravityWins, which made the sentence easy to overlook, but the browser and GitHub are not.
+- **Kept the Firebase Crashlytics disclosure as written.** It was already accurate — the app does send a crash report, and the policy names what it contains and links Google's own privacy policy. This is the one app in the family that genuinely sends data off the device.
+- **Added `INTERNET` to the permissions,** tied explicitly to that crash report. The policy described the crash reporting without ever naming the capability behind it.
+- **Added `ACTIVITY_RECOGNITION` to the app-declared permissions** in the app repository's copy, where it had been omitted. It is a runtime permission for physical activity data and the most sensitive one the app requests.
+- **Listed the remaining library-merged permissions** — `ACCESS_NETWORK_STATE` from Crashlytics, `BIND_JOB_SERVICE` from WorkManager, and `DUMP` — since the app declares six while the Play Store shows ten.
+- **Confirmed and did not disclose webhooks.** The app's own context files describe webhook integration with certificate pinning, but no such code exists: only orphan retry constants remain, with no HTTP client dependency and no URL in the source. A webhook would have sent drop data to a user-configured endpoint and would have required disclosure.
+
+---
+
+## Recent Updates (Version 1.1.0 - May 17, 2026)
+
+- **Aligned policy with the shared privacy-policy structure.**
+- **Clarified local health/activity data and Android health-related permissions.**
 
 ---
 
